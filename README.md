@@ -19,6 +19,7 @@ MineEscape takes the following case-sensitive command line options:
 #### Examples of legal command lines:
 * `./MineEscape --container BINARY infile.txt`
 * `./MineEscape --verbose 15 -c PAIRING infile.txt > outfile.txt`
+
 #### Examples of illegal command lines:
 * `./MineEscape --container BINARY < infile.txt`
   * No input file was given on command line. We are not reading input from standard input with input redirection in this project.
